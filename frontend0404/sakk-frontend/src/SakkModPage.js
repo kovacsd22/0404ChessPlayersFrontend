@@ -52,7 +52,6 @@ export function SakkModPage() {
     e.preventDefault();
 
     axios.put(`http://localhost:3001/chess/${sakkId}`, {
-      id: sakkId,
       name: modName,
       birth_date: modBirthDate,
       world_ch_won: modWorldChWon,
